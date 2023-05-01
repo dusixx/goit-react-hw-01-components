@@ -1,15 +1,8 @@
 import PropTypes from 'prop-types';
 import { getRandomHexColor } from 'components/utils';
-import {
-  Section,
-  Title,
-  List,
-  Item,
-  Label,
-  Percentage,
-} from './UploadStats.styled';
+import { Section, Title, List, Item, Label, Percentage } from './Stats.styled';
 
-export const UploadStats = ({ title = 'Upload stats', stats }) => (
+export const Stats = ({ title, stats }) => (
   <Section>
     {title && <Title>{title}</Title>}
     <List>
@@ -23,7 +16,7 @@ export const UploadStats = ({ title = 'Upload stats', stats }) => (
   </Section>
 );
 
-UploadStats.propTypes = {
+Stats.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.exact({

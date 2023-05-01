@@ -4,7 +4,7 @@ import React from 'react';
 
 import { Task } from './Task/Task';
 import { UserProfile } from './UserProfile/UserProfile';
-import { UploadStats } from './UploadStats/UploadStats';
+import { Stats } from './Stats/Stats';
 import { FriendList } from './FriendList/FriendList';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
@@ -26,7 +26,12 @@ export const App = () => (
 
     <Task
       title="02 - Upload stats"
-      children={<UploadStats stats={uploadStats} />}
+      children={<Stats title="Upload stats" stats={uploadStats} />}
+    />
+
+    <Task
+      title="02a - Upload stats (no title)"
+      children={<Stats stats={uploadStats} />}
     />
 
     <Task
