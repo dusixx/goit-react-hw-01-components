@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/dusixx/goit-react-hw-01-components/static/css/main.a7507575.css",
-    "main.js": "/dusixx/goit-react-hw-01-components/static/js/main.944c5315.js",
-    "index.html": "/dusixx/goit-react-hw-01-components/index.html",
-    "main.a7507575.css.map": "/dusixx/goit-react-hw-01-components/static/css/main.a7507575.css.map",
-    "main.944c5315.js.map": "/dusixx/goit-react-hw-01-components/static/js/main.944c5315.js.map"
+    "main.css": "/dusixx/goit-react-hw-01-components.git/static/css/main.a7507575.css",
+    "main.js": "/dusixx/goit-react-hw-01-components.git/static/js/main.944c5315.js",
+    "index.html": "/dusixx/goit-react-hw-01-components.git/index.html",
+    "main.a7507575.css.map": "/dusixx/goit-react-hw-01-components.git/static/css/main.a7507575.css.map",
+    "main.944c5315.js.map": "/dusixx/goit-react-hw-01-components.git/static/js/main.944c5315.js.map"
   },
   "entrypoints": [
     "static/css/main.a7507575.css",
