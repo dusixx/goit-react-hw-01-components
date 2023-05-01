@@ -6,7 +6,7 @@ const DEF_AVATAR = 'https://cdn-icons-png.flaticon.com/512/1077/1077012.png';
 
 export const FriendListItem = ({ avatar = DEF_AVATAR, name, isOnline }) => (
   <Item>
-    <Status isOnline={isOnline} />
+    <Status online={isOnline} />
     <Avatar bgColor={getRandomHexColor()}>
       <img src={avatar} alt="User avatar" />
     </Avatar>
