@@ -1,5 +1,5 @@
-import { UserDesc } from 'components/UserDesc/UserDesc';
-import { UserStats } from 'components/UserStats/UserStats';
+import { UserDesc } from './UserDesc/UserDesc';
+import { UserStats } from './UserStats/UserStats';
 import { Container } from './UserProfile.styled';
 
 export const UserProfile = props => (

@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-  width: 400px;
 
   background-color: white;
   box-shadow: var(--box-shaddow);
@@ -25,7 +24,13 @@ export const Title = styled.h2`
 export const List = styled.ul`
   display: flex;
   justify-content: space-between;
+
   margin-top: auto;
+  width: 320px;
+
+  @media screen and (min-width: 768px) {
+    width: 420px;
+  }
 `;
 
 export const Item = styled.li`
@@ -36,6 +41,7 @@ export const Item = styled.li`
 
   flex-basis: calc(100% / 5);
   padding: 15px;
+
   color: whitesmoke;
   background-color: ${({ bgColor }) => bgColor};
 `;
@@ -46,5 +52,9 @@ export const Label = styled.span`
 
 export const Percentage = styled.span`
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
 `;

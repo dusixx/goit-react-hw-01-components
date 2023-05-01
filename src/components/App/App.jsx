@@ -20,25 +20,24 @@ import transactions from 'data/transactions.json';
 
 export const App = () => (
   <Container>
-    <Task
-      title="01 - Social network profile"
-      children={<UserProfile {...userData} />}
-    />
-    <Task
-      title="02 - Upload stats"
-      children={<Stats title="Upload stats" stats={uploadStats} />}
-    />
-    <Task
-      title="02a - Upload stats (no title)"
-      children={<Stats stats={uploadStats} />}
-    />
-    <Task
-      title="03 - Friend list"
-      children={<FriendList friends={friends} />}
-    />
-    <Task
-      title="04 - Transaction history"
-      children={<TransactionHistory items={transactions} />}
-    />
+    <Task title="01 - Social network profile">
+      <UserProfile {...userData} />
+    </Task>
+
+    <Task title="02 - Upload stats">
+      <Stats title="Upload stats" stats={uploadStats} />
+    </Task>
+
+    <Task title="02a - Upload stats (no title)">
+      <Stats stats={uploadStats} />
+    </Task>
+
+    <Task title="03 - Friend list">
+      <FriendList friends={friends} />
+    </Task>
+
+    <Task title="04 - Transaction history">
+      <TransactionHistory items={transactions} />
+    </Task>
   </Container>
 );

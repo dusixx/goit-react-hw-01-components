@@ -3,8 +3,11 @@ import styled from '@emotion/styled';
 const COLOR_BASE = '30, 184, 255';
 
 export const History = styled.table`
-  width: 800px;
-  padding: 0;
+  width: 320px;
+
+  @media screen and (min-width: 768px) {
+    width: 800px;
+  }
 
   font-size: 14px;
   text-transform: capitalize;
